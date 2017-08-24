@@ -8,4 +8,4 @@ Utility functionality for Asana
 - Enjoy!
 
 # Example
-![Input](sample/input.png) ![Output](sample/output.png)
+![Input](http://i.imgur.com/MSfI06M.png) ![Output](http://i.imgur.com/vjMyhHi.png)
