@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         Asana
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Custom Code formatting for Asana
 // @author       Lukas Siemon
 // @match        https://app.asana.com/*
 // @grant        none
-// @require http://code.jquery.com/jquery-1.12.4.min.js
-// @require https://yandex.st/highlightjs/8.0/highlight.min.js
+// @require https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+// @require https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js
 // ==/UserScript==
 
-$('head').append('<link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/default.min.css" type="text/css" />');
+$('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css" type="text/css" />');
 
 (function() {
     'use strict';
