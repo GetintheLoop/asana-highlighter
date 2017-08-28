@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Asana
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  Custom Code formatting for Asana
 // @author       Lukas Siemon
 // @match        https://app.asana.com/*
@@ -35,7 +35,7 @@ $('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax
     setInterval(function() {
         if (!document.hidden) {
             // format description
-            let desc = $("#TaskDescription-textEditor");
+            let desc = $("#TaskDescription-textEditor, #property_sheet\\:details_property_sheet_field\\:description");
             if (desc.length == 1) {
                 let display = desc.next("p");
                 if (display.length === 0) {
@@ -58,7 +58,7 @@ $('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax
                 }
             }
             // format comments
-            $("div.truncatedRichText-richText").each(function(idx, e) {
+            $("div.truncatedRichText-richText, div.commentStoryView-content").each(function(idx, e) {
                 if (e.innerText.indexOf('`') != e.innerText.lastIndexOf('`')) {
                     e.innerHTML = rewrite(e.innerHTML);
                     highlight();
