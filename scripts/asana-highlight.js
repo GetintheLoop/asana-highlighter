@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Asana
+// @name         Asana Highlighter
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  Custom Code formatting for Asana
 // @author       Lukas Siemon
 // @match        https://app.asana.com/*
