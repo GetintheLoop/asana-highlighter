@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Asana Links in Bitbucket
 // @namespace    https://github.com/GetintheLoop/asana-highlighter/
-// @version      0.3
+// @version      0.4
 // @description  Use Asana Task Id and render as links in Bitbucket
 // @author       Lukas Siemon
 // @match        https://bitbucket.org/*
