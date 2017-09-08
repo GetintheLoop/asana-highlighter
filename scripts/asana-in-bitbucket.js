@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Asana Links in Bitbucket
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://github.com/GetintheLoop/asana-highlighter/
+// @version      0.2
 // @description  Use Asana Task Id and render as links in Bitbucket
 // @author       Lukas Siemon
 // @match        https://bitbucket.org/*
 // @grant        none
+// @updateURL    https://github.com/GetintheLoop/asana-highlighter/blob/master/scripts/asana-in-bitbucket.js
 // ==/UserScript==
 
 (function() {
