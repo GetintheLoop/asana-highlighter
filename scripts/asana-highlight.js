@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Asana Highlighter
 // @namespace    https://github.com/GetintheLoop/asana-highlighter/
-// @version      0.8
+// @version      0.9
 // @description  Custom Code formatting for Asana
 // @author       Lukas Siemon
 // @match        https://app.asana.com/*
 // @grant        none
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js
-// @updateURL    https://github.com/GetintheLoop/asana-highlighter/blob/master/scripts/asana-highlight.js
+// @updateURL    https://raw.githubusercontent.com/GetintheLoop/asana-highlighter/master/scripts/asana-highlight.js
 // ==/UserScript==
 
 $('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" type="text/css" />');
