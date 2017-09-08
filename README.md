@@ -13,3 +13,9 @@
 
 ## Example Asana in Rollbar
 ![Rendered](http://i.imgur.com/XMkfDFl.png)
+
+## Install Asana in Bitbucket
+- Add Script asana-in-bitbucket.js
+
+## Example Asana in Bitbucket
+![Rendered](http://i.imgur.com/dOxG9Kg.png)
