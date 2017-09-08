@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Asana Links in Bitbucket
 // @namespace    https://github.com/GetintheLoop/asana-highlighter/
-// @version      0.2
+// @version      0.3
 // @description  Use Asana Task Id and render as links in Bitbucket
 // @author       Lukas Siemon
 // @match        https://bitbucket.org/*
@@ -19,7 +19,7 @@
                     desc[0].innerHTML = desc[0].innerText.replace(
                         /#(\d{10,})/g,
                         '<a href="https://app.asana.com/0/0/$1" target="_blank">' +
-                        '<img src="http://i.imgur.com/gsoSXCM.png" style="height:20px; vertical-align:text-top">' +
+                        '<img src="http://i.imgur.com/gsoSXCM.png" style="height:20px; vertical-align:middle">' +
                         '</a>'
                     );
                 }
