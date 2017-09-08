@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Asana in Rollbar Summary
 // @namespace    https://github.com/GetintheLoop/asana-highlighter/
-// @version      0.5
+// @version      0.6
 // @description  Display Asana Tasks in Rollbar List View
 // @author       Lukas Siemon
 // @match        https://rollbar.com/*
 // @grant        none
-// @updateURL    https://github.com/GetintheLoop/asana-highlighter/blob/master/scripts/asana-in-rollbar.js
+// @updateURL    https://raw.githubusercontent.com/GetintheLoop/asana-highlighter/master/scripts/asana-in-rollbar.js
 // ==/UserScript==
 
 (function() {
