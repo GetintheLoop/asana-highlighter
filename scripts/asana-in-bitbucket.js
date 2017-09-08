@@ -6,7 +6,7 @@
 // @author       Lukas Siemon
 // @match        https://bitbucket.org/*
 // @grant        none
-// @updateURL    https://github.com/GetintheLoop/asana-highlighter/blob/master/scripts/asana-in-bitbucket.js
+// @updateURL    https://raw.githubusercontent.com/GetintheLoop/asana-highlighter/master/scripts/asana-in-bitbucket.js
 // ==/UserScript==
 
 (function() {
