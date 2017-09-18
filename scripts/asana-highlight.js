@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Asana Highlighter
 // @namespace    https://github.com/GetintheLoop/asana-highlighter/
-// @version      0.9
+// @version      0.10
 // @description  Custom Code formatting for Asana
 // @author       Lukas Siemon
 // @match        https://app.asana.com/*
@@ -35,6 +35,10 @@ $('head').append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax
 
     setInterval(function() {
         if (!document.hidden) {
+            // expand see more
+            $("a.truncatedRichText-expand:contains('See More')").each(function(idx, e) {
+                e.click();
+            });
             // format description
             let desc = $("#TaskDescription-textEditor, #property_sheet\\:details_property_sheet_field\\:description");
             if (desc.length == 1) {
