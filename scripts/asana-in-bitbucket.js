@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Asana Links in Bitbucket
 // @namespace    https://github.com/GetintheLoop/asana-highlighter/
-// @version      0.5
+// @version      0.6
 // @description  Use Asana Task Id and render as links in Bitbucket
 // @author       Lukas Siemon
 // @match        https://bitbucket.org/*
@@ -13,7 +13,7 @@
     'use strict';
     setInterval(function() {
         if (!document.hidden) {
-            $(".pull-request-title h1, a.pull-request-title").each(function(index, desc) {
+            $("h1 span.pull-request-title, a.pull-request-title").each(function(index, desc) {
                 if (desc.innerText.indexOf('#') !== -1) {
                     desc.innerHTML = desc.innerText.replace(
                         /#(\d{10,})/g,
